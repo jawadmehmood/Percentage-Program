@@ -13,3 +13,5 @@ var obtainedMarks = engMarks + urduMarks + islMarks + chemMarks + phyMarks + mat
 var percentage = (obtainedMarks / totalMarks) * 100;
 
 console.log("You have got: " + percentage + "%");
+
+document.write("You have got: " + percentage + "%");
